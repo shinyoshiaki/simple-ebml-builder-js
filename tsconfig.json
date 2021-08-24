@@ -1,29 +1,22 @@
 {
-    "compilerOptions": {
-        "module": "commonjs",
-        "target": "es5",
-        "noImplicitAny": true,
-        "noImplicitReturns": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": false,
-        "allowUnreachableCode": false,
-        "allowUnusedLabels": false,
-        "allowSyntheticDefaultImports": false,
-        "moduleResolution": "Node",
-        "forceConsistentCasingInFileNames": true,
-        "strictNullChecks": true,
-        "sourceMap": false,
-        "noImplicitThis": true,
-        "noEmitHelpers": false,
-        "lib": [
-            "es2015"
-        ]
-    },
-    "include": [
-        "src/**/*.ts",
-        "typings/**/*.ts"
-    ],
-    "exclude": [
-        "node_modules"
-    ]
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "allowSyntheticDefaultImports": false,
+    "moduleResolution": "Node",
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+    "sourceMap": false,
+    "noImplicitThis": true,
+    "noEmitHelpers": false,
+    "lib": ["es2020"]
+  },
+  "include": ["src/**/*.ts", "typings/**/*.ts"],
+  "exclude": ["node_modules"]
 }
