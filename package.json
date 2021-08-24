@@ -8,20 +8,22 @@
     "webm"
   ],
   "repository": "https://github.com/ryiwamoto/simple-ebml-builder-js.git",
+  "license": "MIT",
+  "author": "ryiwamoto <konnpekigan@gmail.com>",
   "main": "build/index.js",
   "types": "build/dts/index.d.ts",
-  "devDependencies": {
-    "@types/node": "16.7.1",
-    "ts-node": "^10.2.1",
-    "typescript": "^4.3.5"
-  },
   "scripts": {
-    "type": "tsc --noEmit",
-    "build": "rm -rf build && tsc --declaration --rootDir ./src --outDir ./build --declarationDir ./build/dts"
+    "build": "rm -rf build && tsc --declaration --rootDir ./src --outDir ./build --declarationDir ./build/dts",
+    "format": "prettier --write src/**/*.ts",
+    "type": "tsc --noEmit"
   },
-  "author": "ryiwamoto <konnpekigan@gmail.com>",
-  "license": "MIT",
   "dependencies": {
     "lodash.memoize": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "16.7.1",
+    "prettier": "^2.3.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
   }
 }
