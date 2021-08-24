@@ -1,6 +1,6 @@
 {
   "name": "@shinyoshiaki/ebml-builder",
-  "version": "0.2.2",
+  "version": "0.0.1",
   "description": "Simple DSL for building EBML byte array (mkv/webm).",
   "keywords": [
     "ebml",
